@@ -110,7 +110,7 @@ public final class TvOSSlider: UIControl {
      */
     public func setValue(_ value: Float, animated: Bool) {
         self.value = value
-        stopDeceleratingTimer()
+        // stopDeceleratingTimer()
         
         if animated {
             UIView.animate(withDuration: animationDuration) {
